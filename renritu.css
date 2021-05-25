@@ -1,0 +1,202 @@
+.mass {
+    width:40px;
+    height:25px;
+    display: inline-block;
+    border: 2px solid black;  
+}
+
+.mass2{
+    width:40px;
+    height:25px;
+    margin-left:57px;
+    display: inline-block;
+    border: 2px solid black;  
+}
+
+.mass3{
+    width:40px;
+    height:25px;
+    display: inline-block;
+    border: 2px solid black;  
+    vertical-align: top;
+    margin-top:13px;
+}
+
+.mod{
+    font-size:30px;
+    line-height: 0;
+    display: inline-block;
+    vertical-align: top;
+}
+
+p{
+    display: inline-block;
+    font-size:25px;
+    line-height: 0;
+    margin-left:20px;
+}
+
+.equal {
+    font-size:60px;
+    line-height: 0;
+    margin-top:0px;
+    vertical-align: top;
+    transform: scale(0.8, 1.5);
+}
+
+h1 {
+    color: blue;
+    padding: 0.5em 0;
+    border-top: solid 3px blue;
+    border-bottom: solid 3px blue;
+}
+
+body {
+    background-image:linear-gradient(-45deg,  #eaf6fd 25%, #ffffff 25%, #ffffff 50%, #eaf6fd  50%, #eaf6fd 75%, #ffffff 75%, #ffffff);
+}
+
+.hero {
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.button{
+    height:50px;
+    width:100px;
+}
+
+.area{
+    border: 2px solid black;  
+    width:600px; 
+    height:600px;
+}
+
+*:focus{
+    border-color: red;   
+    outline: none;
+    
+}
+
+.kakko {
+    font-size:60px;
+    line-height: 0;
+    margin-top:0px;
+    vertical-align: top;
+    transform: scale(0.8, 1.5);
+}
+
+.kakko2 {
+    font-size:60px;
+    line-height: 0;
+    margin-top:0px;
+    vertical-align: top;
+    transform: scale(0.8, 1.5);
+    padding-top:20px;
+}
+
+.kuuhaku{
+    margin-right : 52px;
+}
+.kuuhaku2{
+    margin-right : 26px;
+}
+.kuuhaku3{
+    margin-right : 17px;
+}
+
+.moji{
+    font-size:30px;
+    vertical-align: top;
+}
+
+.ans{
+    vertical-align: top;
+}
+
+@media (max-width:600px){
+    h1 {
+        color: blue;
+        padding: 0.5em 0;
+        border-top: solid 3px blue;
+        border-bottom: solid 3px blue;
+    }
+
+    .mass {
+        width:25px;
+        height:10px;
+        display: inline-block;
+        border: 2px solid black;  
+    }
+    
+
+    * {
+        font-size:small;
+    }
+
+    .kakko {
+        font-size:30px;
+        line-height: 0;
+        vertical-align: top;
+        transform: scale(0.8, 1.5);
+    }
+
+    .mass2{
+        width:25px;
+        height:10px;
+        margin-left:0px;
+        display: inline-block;
+        border: 2px solid black;  
+    }
+
+    .equal {
+        font-size:30px;
+        line-height: 0;
+        margin-top:0px;
+        vertical-align: top;
+        transform: scale(0.8, 1.5);
+    }
+
+    p{
+        display: inline-block;
+        font-size:15px;
+        margin-left:0px;
+    }
+    
+    .kuuhaku{
+        margin-right : 12px;
+    }
+    .kuuhaku2{
+        margin-right : 8px;
+    }
+    .kuuhaku3{
+        margin-right : 27px;
+    }
+    
+    .area{
+        border: 2px solid black;  
+        width:350px; 
+        height:450px;
+    }
+
+    .mod{
+        font-size:20px;
+        line-height: 0;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    *:focus{
+        border-color: red;   
+        outline: none;
+        
+    }
+
+    .button{
+        height:40px;
+        width:70px;
+    }
+    
+}
+    
